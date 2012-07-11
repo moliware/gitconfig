@@ -1,0 +1,22 @@
+[user]
+	name = moliware
+	email = miguel@moliware.com
+
+[color]
+	ui = true
+
+[color "branch"]
+	current = green bold
+	remote = red bold
+	local = yellow bold
+
+[color "status"]
+	added = green
+	modified = red
+	untracked = blue
+[alias]
+	br = branch
+        ci = commit
+	co = checkout
+	lg = log --graph --decorate --pretty=oneline --abbrev-commit
+	st = status -sb
