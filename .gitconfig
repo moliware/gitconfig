@@ -16,7 +16,9 @@
 	untracked = blue
 [alias]
 	br = branch
-        ci = commit
+	ci = commit
 	co = checkout
-	lg = log --graph --decorate --pretty=oneline --abbrev-commit
+	lg = log --format='%h %an - %s' --graph --decorate --abbrev-commit
 	st = status -sb
+	plom = pull origin master
+	psom = push origin master
